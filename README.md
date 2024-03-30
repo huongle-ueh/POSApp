@@ -36,5 +36,3 @@ Run `npx nx build money-exchange` to build the application. The build artifacts 
 ## Video Demo
 
 Link: https://youtu.be/jUHwrw6BNnI
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jUHwrw6BNnI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
