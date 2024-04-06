@@ -15,13 +15,25 @@ Install dependencies: `yarn install`
 
 Run `npx nx serve money-exchange` to start the development server. Happy coding!
 
+## Start the money-exchange-ui application
+
+Run `npx nx serve money-exchange-ui` to start the development server. Happy coding!
+
 ## Swagger UI
 
 Link: http://localhost:3000/swagger
 
+## Money Exchange Frontend UI
+
+Link: http://localhost:4200/
+
 ## Build for production for the money-exchange application
 
 Run `npx nx build money-exchange` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
+
+## Build for production for the money-exchange-ui application
+
+Run `npx nx build money-exchange-ui` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
 
 ## Team members:
 | Group | Name                  | Student ID  |
