@@ -33,6 +33,10 @@ Run `npx nx build money-exchange` to build the application. The build artifacts 
 | 4     | Đặng Trung Đức        | 35221020127 |
 | 4     | Văn Đình Đức          | 35221020537 |
 
-## Video Demo
+## Video Demo backend service
 
 Link: https://youtu.be/jUHwrw6BNnI
+
+## Video Demo frontend service
+
+Link: https://youtu.be/_PdpkkJAcyo
