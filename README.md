@@ -27,6 +27,10 @@ Link: http://localhost:3000/swagger
 
 Link: http://localhost:4200/
 
+## Start with docker-compose
+
+Run `docker-compose up --build --force-recreate` to start all application
+
 ## Build for production for the money-exchange application
 
 Run `npx nx build money-exchange` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
