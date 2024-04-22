@@ -21,6 +21,7 @@ async function bootstrap() {
 
   const globalPrefix = '';
   const document = SwaggerModule.createDocument(app, options);
+  document.servers = [{ url: '/api/money-exchange' }];
   SwaggerModule.setup('swagger', app, document);
   app.setGlobalPrefix(globalPrefix);
 

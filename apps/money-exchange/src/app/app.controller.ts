@@ -10,7 +10,7 @@ import { plainToClass } from 'class-transformer';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Post('api/money-exchange/exchange')
+  @Post('exchange')
   @ApiOperation({
     summary: 'Endpoint to exchange currencies.',
     description: `

@@ -7,7 +7,7 @@ class MoneyExchangeService {
   ) {
     try {
       const response = await fetch(
-        'http://localhost:3000/api/money-exchange/exchange',
+        'http://localhost/api/money-exchange/exchange',
         {
           method: 'POST',
           headers: {

@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  money-exchange:
+    container_name: money-exchange
+    build:
+      context: ./
+      dockerfile: ./apps/money-exchange/Dockerfile
+    ports:
+      - "3000:3000"
+    command: ./apps/money-exchange/start-money-exchange.sh
+
+  money-exchange-ui:
+    container_name: money-exchange-ui
+    build:
+      context: ./
+      dockerfile: ./apps/money-exchange-ui/Dockerfile
+    ports:
+      - "8080:8080"
+    command: ./apps/money-exchange-ui/start-money-exchange-ui.sh
+
+  nginx:
+    container_name: nginx
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - money-exchange
+      - money-exchange-ui
