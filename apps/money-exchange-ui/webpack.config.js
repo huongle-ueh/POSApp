@@ -7,6 +7,8 @@ module.exports = {
     path: join(__dirname, '../../dist/money-exchange-ui'),
   },
   devServer: {
+    compress: true,
+    allowedHosts: 'all',
     port: 4200,
   },
   plugins: [
